@@ -7,6 +7,7 @@ import RepairDetails from "../pages/RepairDetails";
 import React from "react"
 import Track from "../pages/Track";
 import Signup from '../pages/Signup'
+import ResetPassword from "../pages/ResetPassword";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/" element={<Navigate to="/login" />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />}></Route>
+         <Route path="/resetpassword" element={<ResetPassword />}></Route>
 
         <Route
           path="/dashboard"
