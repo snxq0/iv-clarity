@@ -77,6 +77,22 @@ export default function Login() {
           >
             Sign In
           </button>
+          
+          <div className="mt-4 text-center space-y-2">
+  <a
+    href="/reset-password"
+    className="text-xs text-zinc-400 hover:text-white block"
+  >
+    Forgot password?
+  </a>
+
+  <a
+    href="/signup"
+    className="text-xs text-zinc-400 hover:text-white block"
+  >
+    Create account
+  </a>
+</div>
         </form>
 
         <p className="text-xs text-zinc-500 text-center mt-6">
