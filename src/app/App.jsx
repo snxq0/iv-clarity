@@ -6,7 +6,7 @@ import CreateRepair from "../pages/CreateRepair";
 import RepairDetails from "../pages/RepairDetails";
 import React from "react"
 import Track from "../pages/Track";
-import Signup from './pages/Signup'
+import Signup from '../pages/signUp'
 
 export default function App() {
   return (
