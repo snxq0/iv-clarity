@@ -95,9 +95,7 @@ export default function Login() {
 </div>
         </form>
 
-        <p className="text-xs text-zinc-500 text-center mt-6">
-          Internal system access only
-        </p>
+        
       </div>
     </div>
   );
