@@ -85,7 +85,7 @@ serve(async (req) => {
           : ""
       }
 
-      <a href="https://localhost:5173/track/${repair.public_id}"
+      <a href="${Deno.env.get("APP_URL")}/track/${repair.public_id}"
          style="display:block;text-align:center;background:#ffffff;color:#000000;text-decoration:none;padding:12px;border-radius:10px;font-size:14px;font-weight:600;">
          View Repair Status
       </a>
